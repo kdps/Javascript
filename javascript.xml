@@ -1,0 +1,491 @@
+<?xml version="1.0" ?>
+<root>
+
+  <obj name="Boolean" trigger=".">
+	<item name="constructor" obj="Object" trigger="." img="properties">constructor</item>
+	<item name="prototype" obj="Object" trigger="." img="properties">prototype</item>
+	<item name="toString" obj="Object" trigger="." img="methods">toString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">valueOf()</item>
+  </obj>
+  
+  <obj name="math" trigger=".">
+	<item name="E" obj="Properties" trigger="." img="properties">E</item>
+	<item name="LN2" obj="Properties" trigger="." img="properties">LN2</item>
+	<item name="LN10" obj="Properties" trigger="." img="properties">LN10</item>
+	<item name="LOG2E" obj="Properties" trigger="." img="properties">LOG2E</item>
+	<item name="LOG10E" obj="Properties" trigger="." img="properties">LOG10E</item>
+	<item name="PI" obj="Properties" trigger="." img="properties">PI</item>
+	<item name="SQRT1 2" obj="Properties" trigger="." img="properties">SQRT1_2</item>
+	<item name="SQRT2" obj="Properties" trigger="." img="properties">SQRT2</item>
+	<item name="abs(x)" obj="Methods" trigger="." img="methods">abs(x)</item>
+	<item name="acos(x)" obj="Methods" trigger="." img="methods">acos(x)</item>
+	<item name="asin(x)" obj="Methods" trigger="." img="methods">asin(x)</item>
+	<item name="atan(x)" obj="Methods" trigger="." img="methods">atan(x)</item>
+	<item name="atan2(y,x)" obj="Methods" trigger="." img="methods">atan2(y,x)</item>
+	<item name="ceil(x)" obj="Methods" trigger="." img="methods">ceil(x)</item>
+	<item name="cos(x)" obj="Methods" trigger="." img="methods">cos(x)</item>
+	<item name="exp(x)" obj="Methods" trigger="." img="methods">exp(x)</item>
+	<item name="floor(x)" obj="Methods" trigger="." img="methods">floor(x)</item>
+	<item name="log(x)" obj="Methods" trigger="." img="methods">log(x)</item>
+	<item name="max(x,y,z,...,n)" obj="Methods" trigger="." img="methods">max(x,y,z,...,n)</item>
+	<item name="min(x,y,z,...,n)" obj="Methods" trigger="." img="methods">min(x,y,z,...,n)</item>
+	<item name="pow(x,y)" obj="Methods" trigger="." img="methods">pow(x,y)</item>
+	<item name="random()" obj="Methods" trigger="." img="methods">random()</item>
+	<item name="round(x)" obj="Methods" trigger="." img="methods">round(x)</item>
+	<item name="sin(x)" obj="Methods" trigger="." img="methods">sin(x)</item>
+	<item name="sqrt(x)" obj="Methods" trigger="." img="methods">sqrt(x)</item>
+	<item name="tan(x)" obj="Methods" trigger="." img="methods">tan(x)</item>
+  </obj>
+
+  <obj name="Date" trigger=".">
+	<item name="constructor" obj="Object" trigger="." img="properties">constructor</item>
+	<item name="prototype" obj="Object" trigger="." img="properties">prototype</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getDate()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getDay()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getFullYear()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getHours()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getMilliseconds()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getMinutes()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getMonth()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getSeconds()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getTime()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getTimezoneOffset()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getUTCDate()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getUTCDay()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getUTCFullYear()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getUTCHours()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getUTCMilliseconds()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getUTCMinutes()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getUTCMonth()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">getUTCSeconds()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">parse()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setDate()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setFullYear()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setHours()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setMilliseconds()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setMinutes()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setMonth()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setSeconds()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setTime()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setUTCDate()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setUTCFullYear()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setUTCHours()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setUTCMilliseconds()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setUTCMinutes()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setUTCMonth()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">setUTCSeconds()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toDateString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toISOString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toJSON()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toLocaleDateString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toLocaleTimeString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toLocaleString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toTimeString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">toUTCString()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">UTC()</item>
+	<item name="valueOf" obj="Object" trigger="." img="methods">valueOf()</item>
+  </obj>
+  
+  <obj name="Array" trigger=".">
+	<item name="onclick" obj="Object" trigger="." img="properties">constructor</item>
+	<item name="onclick" obj="Object" trigger="." img="properties">length</item>
+	<item name="onclick" obj="Object" trigger="." img="properties">prototype</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">concat()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">indexOf()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">join()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">lastIndexOf()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">pop()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">push()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">reverse()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">shift()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">slice()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">sort()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">splice()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">toString()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">unshift()</item>
+	<item name="onclick" obj="Object" trigger="." img="methods">valueOf()</item>
+  </obj>
+  
+  
+  <obj name="object" trigger="(">
+	<item name="onclick" obj="Object" trigger="(" img="mouse" tooltip="사용자가 요소를 클릭할때 이벤트가 발생">"onclick"</item>
+	<item name="oncontextmenu" obj="Object" trigger="(" img="mouse" tooltip="사용자가 요소의 마우스 오른쪽 버튼을 클릭하여 컨텍스트 메뉴를 열때 이벤트가 발생">"oncontextmenu"</item>
+	<item name="ondblclick" obj="Object" trigger="(" img="mouse" tooltip="사용자가 요소를 두번 클릭할때 이벤트가 발생">"ondblclick"</item>
+	<item name="onmousedown" obj="Object" trigger="(" img="mouse" tooltip="사용자가 요소 위에 마우스 버튼을 눌렀을 때에 이벤트가 발생">"onmousedown"</item>
+	<item name="onmouseenter" obj="Object" trigger="(" img="mouse" tooltip="포인터가 요소상으로 이동될때 이벤트가 발생">"onmouseenter"</item>
+	<item name="onmouseleave" obj="Object" trigger="(" img="mouse" tooltip="포인터가 요소로부터 이탈되었을 때 이벤트 발생">"onmouseleave"</item>
+	<item name="onmousemove" obj="Object" trigger="(" img="mouse" tooltip="요소위에 있는동안 포인터가 이동될때 발생">"onmousemove"</item>
+	<item name="onmouseover" obj="Object" trigger="(" img="mouse" tooltip="포인터가 요소 상에 또는 그 자식 중 하나 상으로 이동 될 때 이벤트가 발생">"onmouseover"</item>
+	<item name="onmouseout" obj="Object" trigger="(" img="mouse" tooltip="사용자 또는 그의 자식 중 하나의 요소로부터 밖으로 마우스 포인터를 이동했을 때 이벤트 발생">"onmouseout"</item>
+	<item name="onmouseup" obj="Object" trigger="(" img="mouse" tooltip="사용자가 요소 위에 마우스 버튼을 놓을 때 이벤트가 발생">"onmouseup"</item>
+	<item name="onkeydown" obj="Object" trigger="(" img="keyboard" tooltip="">"onkeydown"</item>
+	<item name="onkeypress" obj="Object" trigger="(" img="keyboard" tooltip="">"onkeypress"</item>
+	<item name="onkeyup" obj="Object" trigger="(" img="keyboard" tooltip="">"onkeyup"</item>
+	<item name="onabort" obj="Object" trigger="(" img="frameobject" tooltip="">"onabort"</item>
+	<item name="onbeforeunload" obj="Object" trigger="(" img="frameobject" tooltip="">"onbeforeunload"</item>
+	<item name="onerror" obj="Object" trigger="(" img="frameobject" tooltip="">"onerror"</item>
+	<item name="onhashchange" obj="Object" trigger="(" img="frameobject" tooltip="">"onhashchange"</item>
+	<item name="onload" obj="Object" trigger="(" img="frameobject" tooltip="">"onload"</item>
+	<item name="onpageshow" obj="Object" trigger="(" img="frameobject" tooltip="">"onpageshow"</item>
+	<item name="onpagehide" obj="Object" trigger="(" img="frameobject" tooltip="">"onpagehide"</item>
+	<item name="onresize" obj="Object" trigger="(" img="frameobject" tooltip="">"onresize"</item>
+	<item name="onscroll" obj="Object" trigger="(" img="frameobject" tooltip="">"onscroll"</item>
+	<item name="onunload" obj="Object" trigger="(" img="frameobject" tooltip="">"onunload"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onblur"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onchange"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onfocus"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onfocusin"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onfocusout"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"oninput"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"oninvalid"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onreset"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onsearch"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onselect"</item>
+	<item name="onunload" obj="Object" trigger="(" img="form" tooltip="">"onsubmit"</item>
+	<item name="onunload" obj="Object" trigger="(" img="drag" tooltip="">"ondrag"</item>
+	<item name="onunload" obj="Object" trigger="(" img="drag" tooltip="">"ondragend"</item>
+	<item name="onunload" obj="Object" trigger="(" img="drag" tooltip="">"ondragenter"</item>
+	<item name="onunload" obj="Object" trigger="(" img="drag" tooltip="">"ondragleave"</item>
+	<item name="onunload" obj="Object" trigger="(" img="drag" tooltip="">"ondragover"</item>
+	<item name="onunload" obj="Object" trigger="(" img="drag" tooltip="">"ondragstart"</item>
+	<item name="onunload" obj="Object" trigger="(" img="drag" tooltip="">"ondrop"</item>
+	<item name="onunload" obj="Object" trigger="(" img="clipboard" tooltip="">"oncopy"</item>
+	<item name="onunload" obj="Object" trigger="(" img="clipboard" tooltip="">"oncut"</item>
+	<item name="onunload" obj="Object" trigger="(" img="clipboard" tooltip="">"onpaste"</item>
+	<item name="onunload" obj="Object" trigger="(" img="print" tooltip="">"onafterprint"</item>
+	<item name="onunload" obj="Object" trigger="(" img="print" tooltip="">"onbeforeprint"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onabort"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"oncanplay"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"oncanplaythrough"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"ondurationchange"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onemptied"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onended"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onerror"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onloadeddata"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onloadedmetadata"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onloadstart"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onpause"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onplay"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onplaying"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onprogress"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onratechange"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onseeked"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onseeking"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onstalled"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onsuspend"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"ontimeupdate"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onvolumechange"</item>
+	<item name="onunload" obj="Object" trigger="(" img="media" tooltip="">"onwaiting"</item>
+	<item name="onunload" obj="Object" trigger="(" img="server" tooltip="">"onerror"</item>
+	<item name="onunload" obj="Object" trigger="(" img="server" tooltip="">"onmessage"</item>
+	<item name="onunload" obj="Object" trigger="(" img="server" tooltip="">"onopen"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"onmessage"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"onmousewheel"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"ononline"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"onoffline"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"onpopstate"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"onshow"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"onstorage"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"ontoggle"</item>
+	<item name="onunload" obj="Object" trigger="(" img="misc" tooltip="">"onwheel"</item>
+	<item name="onunload" obj="Object" trigger="(" img="touch" tooltip="">"ontouchcancel"</item>
+	<item name="onunload" obj="Object" trigger="(" img="touch" tooltip="">"ontouchend"</item>
+	<item name="onunload" obj="Object" trigger="(" img="touch" tooltip="">"ontouchmove"</item>
+	<item name="onunload" obj="Object" trigger="(" img="touch" tooltip="">"ontouchstart"</item>
+  </obj>
+  
+  <obj name="addEventListener" trigger="(">
+	<item name="onunload" obj="Object" trigger="(" img="animation" tooltip="">"animationend"</item>
+	<item name="onunload" obj="Object" trigger="(" img="animation" tooltip="">"animationiteration"</item>
+	<item name="onunload" obj="Object" trigger="(" img="animation" tooltip="">"animationstart"</item>
+	<item name="onunload" obj="Object" trigger="(" img="transition" tooltip="">"transitionend"</item>
+  </obj>
+  
+  <obj name="event" trigger=".">
+	<item name="onunload" obj="Object" trigger="(" img="object" tooltip="">CAPTURING_PHASE</item>
+	<item name="onunload" obj="Object" trigger="(" img="object" tooltip="">AT_TARGET</item>
+	<item name="onunload" obj="Object" trigger="(" img="object" tooltip="">BUBBLING_PHASE</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">bubbles</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">cancelable</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">currentTarget</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">defaultPrevented</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">eventPhase</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">isTrusted</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">target</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">timeStamp</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">type</item>
+	<item name="onunload" obj="Object" trigger="(" img="properties" tooltip="">view</item>
+	<item name="onunload" obj="Object" trigger="(" img="methods" tooltip="">initEvent()</item>
+	<item name="onunload" obj="Object" trigger="(" img="methods" tooltip="">preventDefault()</item>
+	<item name="onunload" obj="Object" trigger="(" img="methods" tooltip="">stopImmediatePropagation()</item>
+	<item name="onunload" obj="Object" trigger="(" img="methods" tooltip="">stopPropagation()</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">altKey</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">button</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">buttons</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">clientX</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">clientY</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">ctrlKey</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">detail</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">metaKey</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">relatedTarget</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">screenX</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">screenY</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">shiftKey</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">which</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">altKey</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">ctrlKey</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">charCode</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">key</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">keyCode</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">location</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">metaKey</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">shiftKey</item>
+	<item name="onunload" obj="Object" trigger="(" img="keyboard" tooltip="">which</item>
+	<item name="onunload" obj="Object" trigger="(" img="hase" tooltip="">newURL</item>
+	<item name="onunload" obj="Object" trigger="(" img="hase" tooltip="">oldURL</item>
+	<item name="onunload" obj="Object" trigger="(" img="page" tooltip="">persisted</item>
+	<item name="onunload" obj="Object" trigger="(" img="focus" tooltip="">relatedTarget</item>
+	<item name="onunload" obj="Object" trigger="(" img="animation" tooltip="">animationName</item>
+	<item name="onunload" obj="Object" trigger="(" img="animation" tooltip="">elapsedTime</item>
+	<item name="onunload" obj="Object" trigger="(" img="transition" tooltip="">propertyName</item>
+	<item name="onunload" obj="Object" trigger="(" img="transition" tooltip="">elapsedTime</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">deltaX</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">deltaY</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">deltaZ</item>
+	<item name="onunload" obj="Object" trigger="(" img="mouse" tooltip="">deltaMode</item>
+  </obj>
+  
+  
+  <obj name="document" trigger=".">
+    <item name="addEventListener" obj="Object" trigger="." img="unknown" tooltip="이벤트를 읽어들입니다">addEventListener()</item>
+	<item name="adoptNode" obj="Object" trigger="." img="unknown" tooltip="다른 문서에서 adapded 노드를 돌려줍니다">adoptNode()</item>
+	<item name="anchors" obj="Object" trigger="." img="unknown" tooltip="문서의 모든 이름 속성이 A 요소인 컬렉션을 반환">anchors</item>
+	<item name="applets" obj="Object" trigger="." img="unknown" tooltip="문서에있는 모든 applets 요소의 컬렉션을 반환">applets</item>
+	<item name="baseURI" obj="Object" trigger="." img="unknown" tooltip="문서의 기본 URI을 돌려줍니다">baseURI</item>
+	<item name="body" obj="Object" trigger="." img="unknown" tooltip="body 요소를 설정하거나 문서의 본문을 반환합니다">body</item>
+	<item name="close" obj="Object" trigger="." img="unknown">close()</item>
+	<item name="cookie" obj="Object" trigger="." img="unknown" tooltip="문서에 모든 쿠키 이름/값 쌍을 반환">cookie</item>
+	<item name="createAttribute" obj="Object" trigger="." img="unknown" tooltip="속성 노드를 작성합니다">createAttribute()</item>
+	<item name="createComment" obj="Object" trigger="." img="unknown" tooltip="지정된 텍스트로 주석 노드를 작성">createComment()</item>
+	<item name="createDocumentFragment" obj="Object" trigger="." img="unknown" tooltip="빈 DocumentFragment 노드를 작성">createDocumentFragment()</item>
+	<item name="createElement" obj="Object" trigger="." img="unknown" tooltip="요소 노드를 작성">createElement()</item>
+	<item name="createTextNode" obj="Object" trigger="." img="unknown" tooltip="텍스트 노드 작성">createTextNode()</item>
+	<item name="doctype" obj="Object" trigger="." img="unknown" tooltip="문서와 관련된 문서 유형 선언을 돌려줍니다">doctype</item>
+	<item name="documentElement" obj="Object" trigger="." img="unknown" tooltip="문서의 문서 요소 HTML 요소를 반환">documentElement</item>
+	<item name="documentMode" obj="Object" trigger="." img="unknown" tooltip="브라우저에 의해 사용된 렌더링된 모드를 반환">documentMode</item>
+	<item name="documentURI" obj="Object" trigger="." img="unknown" tooltip="설정 또는 문서의 위치를 반환">documentURI</item>
+	<item name="domain" obj="Object" trigger="." img="unknown" tooltip="연결된 문서의 도메인을 반환">domain</item>
+	<item name="embeds" obj="Object" trigger="." img="unknown" tooltip="문서의 모든 embed 요소 컬렉션을 반환">embeds</item>
+	<item name="forms" obj="Object" trigger="." img="unknown" tooltip="문서의 모든 form 요소 컬렉션을 반환">forms</item>
+	<item name="getElementById" obj="Object" trigger="." img="unknown" tooltip="지정된 값의 ID 속성을 가진 요소를 돌려줍니다">getElementById()</item>
+	<item name="getElementsByClassName" obj="Object" trigger="." img="unknown" tooltip="지정된 클래스 이름을 가진 모든 요소가 포함 된 NodeList를 돌려줍니다">getElementsByClassName()</item>
+	<item name="getElementsByName" obj="Object" trigger="." img="unknown" tooltip="지정된 이름을 가지는 모든 요소가 포함 된 NodeList를 돌려줍니다">getElementsByName()</item>
+	<item name="getElementsByTagName" obj="Object" trigger="." img="unknown" tooltip="지정된 태그 이름을 가진 모든 요소가 포함 된 NodeList를 돌려줍니다">getElementsByTagName()</item>
+	<item name="head" obj="Object" trigger="." img="unknown" tooltip="문서의 head 요소를 돌려줍니다">head</item>
+	<item name="images" obj="Object" trigger="." img="unknown" tooltip="문서에있는 모든 img 요소의 컬렉션을 반환">images</item>
+	<item name="implementation" obj="Object" trigger="." img="unknown" tooltip="이 문서를 처리하는 DOMImplementation 오브젝트를 돌려줍니다">implementation</item>
+	<item name="importNode" obj="Object" trigger="." img="unknown" tooltip="다른 문서에서 노드를 가져옵니다">importNode()</item>
+	<item name="inputEncoding" obj="Object" trigger="." img="unknown" tooltip="문서에 사용되는 인코딩, 문자 집합을 반환">inputEncoding</item>
+	<item name="lastModified" obj="Object" trigger="." img="unknown" tooltip="문서가 마지막으로 수정된 날짜와 시간을 반환">lastModified</item>
+	<item name="links" obj="Object" trigger="." img="unknown" tooltip="문서의 모든 href 속성이 a 및 area 요소의 컬렉션을 반환">links</item>
+	<item name="normalize" obj="Object" trigger="." img="unknown" tooltip="빈 텍스트 노드를 제거하고 인접하는 노드를 합류">normalize()</item>
+	<item name="normalizeDocument" obj="Object" trigger="." img="unknown" tooltip="빈 텍스트 노드를 제거하고 인접하는 노드를 합류">normalizeDocument()</item>
+	<item name="open" obj="Object" trigger="." img="unknown">open()</item>
+	<item name="querySelector" obj="Object" trigger="." img="unknown" tooltip="문서에 지정된 CSS selector와 일치하는 첫 번째 요소를 돌려줍니다">querySelector()</item>
+	<item name="querySelectorAll" obj="Object" trigger="." img="unknown" tooltip="문서에서 지정된 CSS selector와 일치하는 모든 요소를 포함하는 고정된 NodeList를 돌려줍니다">querySelectorAll()</item>
+	<item name="readyState" obj="Object" trigger="." img="unknown" tooltip="문서의 (로드) 상태를 반환">readyState</item>
+	<item name="referrer" obj="Object" trigger="." img="unknown" tooltip="현재 문서를 로드 문서의 URL로 돌려줍니다">referrer</item>
+	<item name="removeEventListener" obj="Object" trigger="." img="unknown" tooltip="문서에서 이벤트 처리기를 제거">removeEventListener()</item>
+	<item name="renameNode" obj="Object" trigger="." img="unknown" tooltip="지정된 노드의 이름을 변경합니다">renameNode()</item>
+	<item name="scripts" obj="Object" trigger="." img="unknown" tooltip="문서의 script 요소 컬렉션을 반환">scripts</item>
+	<item name="strictErrorChecking" obj="Object" trigger="." img="unknown" tooltip="반환 오류 검사가 시행되거나 설정되는 여부를 반환">strictErrorChecking</item>
+	<item name="title" obj="Object" trigger="." img="unknown" tooltip="문서의 제목을 설정하거나 반환">title</item>
+	<item name="URL" obj="Object" trigger="." img="unknown" tooltip="HTML 문서의 전체 URL을 반환">URL</item>
+	<item name="write" obj="Object" trigger="." img="unknown" tooltip="문서에 HTML식 또는 자바 스크립트 코드를 기입">write()</item>
+	<item name="writeln" obj="Object" trigger="." img="unknown" tooltip="write와 동일하지만 각 문 다음에 개행 문자를 추가">writeln()</item>
+  </obj>
+  
+  <obj name="element" trigger=".">
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="accesskey 요소 속성을 설정 또는 반환">accessKey</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">addEventListener()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">appendChild()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">attributes</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">blur()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">childElementCount</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">childNodes</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">children</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">className</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">click()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">clientHeight</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">clientLeft</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">clientTop</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">clientWidth</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">cloneNode()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">compareDocumentPosition()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">contains()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">contentEditable</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">dir</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">firstChild</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">firstElementChild</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">focus()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">getAttribute()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">getAttributeNode()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">getElementsByClassName()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">getElementsByTagName()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">getFeature()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">hasAttribute()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">hasAttributes()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">hasChildNodes()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">id</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">innerHTML</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">insertBefore()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">isContentEditable</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">isDefaultNamespace()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">isEqualNode()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">isSameNode()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">isSupported()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">lang</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">lastChild</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">lastElementChild</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">namespaceURI</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">nextSibling</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">nextElementSibling</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">nodeName</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">nodeType</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">nodeValue</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">normalize()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">offsetHeight</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">offsetWidth</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">offsetLeft</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">offsetParent</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">offsetTop</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">ownerDocument</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">parentNode</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">parentElement</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">previousSibling</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">previousElementSibling</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">querySelector()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">querySelectorAll()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">removeAttribute()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">removeAttributeNode()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">removeChild()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">replaceChild()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">removeEventListener()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">scrollHeight</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">scrollLeft</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">scrollTop</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">scrollWidth</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">setAttribute()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">setAttributeNode()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">style</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">tabIndex</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">tagName</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">textContent</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">title</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">toString()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">item()</item>
+	<item name="accessKey" obj="Object" trigger="." img="unknown" tooltip="">length</item>
+  </obj>
+
+  
+  <obj name="screen" trigger=".">
+	<item name="availHeight" obj="Properties" trigger="." img="properties" tooltip="화면의 높이를 돌려줍니다 (작업 표시줄 제외)">availHeight</item>
+	<item name="availWidth" obj="Properties" trigger="." img="properties" tooltip="화면의 폭을 돌려줍니다(작업 표시줄 제외)">availWidth</item>
+	<item name="colorDepth" obj="Properties" trigger="." img="properties" tooltip="화상을 표시하기위한 컬러 팔레트의 비트 깊이를 돌려줍니다">colorDepth</item>
+	<item name="height" obj="Properties" trigger="." img="properties" tooltip="화면의 전체 높이를 돌려줍니다">height</item>
+	<item name="pixelDepth" obj="Properties" trigger="." img="properties" tooltip="화면 (픽셀 당 비트) 컬러 해상도를 돌려줍니다">pixelDepth</item>
+	<item name="width" obj="Properties" trigger="." img="properties" tooltip="화면의 전체 폭을 돌려줍니다">width</item>
+  </obj>
+  
+  <obj name="window" trigger=".">
+	<item name="availHeight" obj="Properties" trigger="." img="properties" tooltip="window가 종료되었는지의 여부를 나타내는 boolean값을 반환">closed</item>
+	<item name="defaultStatus" obj="Properties" trigger="." img="properties" tooltip="윈도우의 상태 표시 줄에서 기본 텍스트를 설정하거나 반환">defaultStatus</item>
+	<item name="document" obj="Properties" trigger="." img="properties" tooltip="창에 대한 문서 객체를 반환">document</item>
+	<item name="frameElement" obj="Properties" trigger="." img="properties" tooltip="현재 윈도우에 삽입된 iframe 요소를 돌려줍니다">frameElement</item>
+	<item name="frames" obj="Properties" trigger="." img="properties" tooltip="현재 윈도우의 모든 iframe 요소를 반환">frames</item>
+	<item name="history" obj="Properties" trigger="." img="properties" tooltip="윈도우의 history 오브젝트를 돌려줍니다">history</item>
+	<item name="HTMLAudioElement " obj="Properties" trigger="." img="properties" tooltip="객체를 생성할 수 있는지의 여부를 반환합니다">HTMLAudioElement</item>
+	<item name="innerHeight" obj="Properties" trigger="." img="properties" tooltip="윈도우의 컨텐츠 영역의 내부 높이를 돌려줍니다">innerHeight</item>
+	<item name="innerWidth" obj="Properties" trigger="." img="properties" tooltip="윈도우의 컨텐츠 영역의 내부 폭을 돌려줍니다">innerWidth</item>
+	<item name="length" obj="Properties" trigger="." img="properties" tooltip="현재 창에서 iframe 요소의 수를 돌려줍니다">length</item>
+	<item name="location" obj="Properties" trigger="." img="properties" tooltip="윈도우의 위치 오브젝트를 돌려줍니다">location</item>
+	<item name="name" obj="Properties" trigger="." img="properties" tooltip="윈도우의 이름을 설정 또는 반환">name</item>
+	<item name="navigator" obj="Properties" trigger="." img="properties" tooltip="윈도우 navigator 객체를 돌려줍니다">navigator</item>
+	<item name="opener" obj="Properties" trigger="." img="properties" tooltip="창을 만든 창에 대한 참조를 반환">opener</item>
+	<item name="outerHeight" obj="Properties" trigger="." img="properties" tooltip="도구 모음/스크롤바를 포함하여 윈도우의 외부 높이를 돌려줍니다">outerHeight</item>
+	<item name="outerWidth" obj="Properties" trigger="." img="properties" tooltip="도구 모음 / 스크롤바를 포함하여 윈도우의 외부 폭을 돌려줍니다">outerWidth</item>
+	<item name="pageXOffset" obj="Properties" trigger="." img="properties" tooltip="윈도우의 상부 좌측 코너에서 현재 문서가 스크롤 된 픽셀(가로)을 반환">pageXOffset</item>
+	<item name="pageYOffset" obj="Properties" trigger="." img="properties" tooltip="윈도우의 상부 좌측 코너에서 현재 문서가 스크롤 된 픽셀(수직)을 반환">pageYOffset</item>
+	<item name="parent" obj="Properties" trigger="." img="properties" tooltip="현재 윈도우의 부모 윈도우를 돌려줍니다">parent</item>
+	<item name="screen" obj="Properties" trigger="." img="properties" tooltip="윈도우 화면 오브젝트를 돌려줍니다">screen</item>
+	<item name="screenLeft" obj="Properties" trigger="." img="properties" tooltip="수평 화면에 윈도우의 y 좌표를 돌려줍니다">screenLeft</item>
+	<item name="screenTop" obj="Properties" trigger="." img="properties" tooltip="수직 화면에 윈도우의 y 좌표를 돌려줍니다">screenTop</item>
+	<item name="screenX" obj="Properties" trigger="." img="properties" tooltip="수평 화면에 윈도우의 y 좌표를 돌려줍니다">screenX</item>
+	<item name="screenY" obj="Properties" trigger="." img="properties" tooltip="수직 화면에 윈도우의 y 좌표를 돌려줍니다">screenY</item>
+	<item name="scrollX" obj="Properties" trigger="." img="properties" tooltip="pageXOffset의 별명">scrollX</item>
+	<item name="scrollY" obj="Properties" trigger="." img="properties" tooltip="pageYOffset의 별명">scrollY</item>
+	<item name="self" obj="Properties" trigger="." img="properties" tooltip="현재 창을 반환">self</item>
+	<item name="status" obj="Properties" trigger="." img="properties" tooltip="윈도우의 상태 표시 줄의 텍스트를 설정하거나 반환">status</item>
+	<item name="top" obj="Properties" trigger="." img="properties" tooltip="브라우저 창을 항상 위로 반환">top</item>
+	<item name="alert" obj="Methods" trigger="." img="methods" tooltip="메시지와 OK 버튼이 포함된 경고 상자를 표시합니다">alert()</item>
+	<item name="atob" obj="Methods" trigger="." img="methods" tooltip="base-64로 인코딩 된 문자열을 디코딩">atob()</item>
+	<item name="blur" obj="Methods" trigger="." img="methods" tooltip="현재 창에서 포커스를 제거합니다">blur()</item>
+	<item name="btoa" obj="Methods" trigger="." img="methods" tooltip="base-64로 문자열을 인코딩">btoa()</item>
+	<item name="clearInterval" obj="Methods" trigger="." img="methods" tooltip="setInterval 설정 타이머를 초기화">clearInterval()</item>
+	<item name="clearTimeout" obj="Methods" trigger="." img="methods" tooltip="setTimeout 설정 타이머를 초기화">clearTimeout()</item>
+	<item name="close" obj="Methods" trigger="." img="methods" tooltip="현재 창을 닫습니다">close()</item>
+	<item name="confirm" obj="Methods" trigger="." img="methods" tooltip="메시지 확인 및 취소 버튼이 있는 대화 상자를 표시합니다">confirm()</item>
+	<item name="createPopup" obj="Methods" trigger="." img="methods" tooltip="팝업 창을 생성">createPopup()</item>
+	<item name="focus" obj="Methods" trigger="." img="methods" tooltip="현재 창에 초점을 맞춤">focus()</item>
+	<item name="moveBy" obj="Methods" trigger="." img="methods" tooltip="현재의 위치에서 상대적으로 윈도우를 이동">moveBy()</item>
+	<item name="moveTo" obj="Methods" trigger="." img="methods" tooltip="지정된 위치에 창을 이동">moveTo()</item>
+	<item name="open" obj="Methods" trigger="." img="methods" tooltip="새 브라우저 창을 엽니다">open()</item>
+	<item name="print" obj="Methods" trigger="." img="methods" tooltip="현재 윈도우의 내용을 인쇄">print()</item>
+	<item name="prompt" obj="Methods" trigger="." img="methods" tooltip="입력 방문자를 묻는 대화 상자를 표시합니다">prompt()</item>
+	<item name="resizeBy" obj="Methods" trigger="." img="methods" tooltip="지정된 픽셀로 창 크기를 조정">resizeBy()</item>
+	<item name="resizeTo" obj="Methods" trigger="." img="methods" tooltip="지정된 폭과 높이로 창 크기를 조정">resizeTo()</item>
+	<item name="scrollBy" obj="Methods" trigger="." img="methods" tooltip="지정된 픽셀의 수에 의해 문서를 스크롤">scrollBy()</item>
+	<item name="scrollTo" obj="Methods" trigger="." img="methods" tooltip="지정된 좌표로 문서를 스크롤">scrollTo()</item>
+	<item name="setInterval" obj="Methods" trigger="." img="methods" tooltip="함수를 호출하거나 (밀리 초) 지정된 간격으로 표현식을 실행">setInterval()</item>
+	<item name="setTimeout" obj="Methods" trigger="." img="methods" tooltip="함수를 호출하거나 지정된 밀리 세컨드 후 표현식을 실행">setTimeout()</item>
+	<item name="stop" obj="Methods" trigger="." img="methods" tooltip="창 로딩을 중지">stop()</item>
+  </obj>
+  
+  <obj name="history" trigger=".">
+	<item name="length" obj="Methods" trigger="." img="properties" tooltip="히스토리 목록에서 URL의 수를 돌려줍니다">length</item>
+	<item name="back" obj="Methods" trigger="." img="methods" tooltip="히스토리 목록에서 이전 URL을 로드">back()</item>
+	<item name="forward" obj="Methods" trigger="." img="methods" tooltip="히스토리 목록에서 다음 URL을 로드">forward()</item>
+	<item name="go" obj="Methods" trigger="." img="methods" tooltip="기록 목록에서 특정 URL을 로드">go()</item>
+  </obj>
+  
+  <obj name="navigator" trigger=".">
+	<item name="appCodeName" obj="Properties" trigger="." img="properties" tooltip="브라우저의 코드명을 돌려줍니다">appCodeName</item>
+	<item name="appName" obj="Properties" trigger="." img="properties" tooltip="브라우저의 이름을 돌려줍니다">appName</item>
+	<item name="appVersion" obj="Properties" trigger="." img="properties" tooltip="브라우저의 버전 정보를 반환">appVersion</item>
+	<item name="cookieEnabled" obj="Properties" trigger="." img="properties" tooltip="쿠키가 브라우저에서 사용할 수 있는지 여부를 결정합니다">cookieEnabled</item>
+	<item name="geolocation" obj="Properties" trigger="." img="properties" tooltip="위치 정보 오브젝트를 돌려줍니다">geolocation</item>
+	<item name="language" obj="Properties" trigger="." img="properties" tooltip="브라우저의 언어를 돌려줍니다">language</item>
+	<item name="onLine" obj="Properties" trigger="." img="properties" tooltip="브라우저가 온라인인지 여부를 확인합니다">onLine</item>
+	<item name="platform" obj="Properties" trigger="." img="properties" tooltip="브라우저가 컴파일되는 플랫폼에 대한 반환">platform</item>
+	<item name="product" obj="Properties" trigger="." img="properties" tooltip="브라우저의 엔진 이름을 반환">product</item>
+	<item name="userAgent" obj="Properties" trigger="." img="properties" tooltip="브라우저에서 서버로 보낸 사용자 에이전트 헤더를 돌려줍니다">userAgent</item>
+	<item name="javaEnabled" obj="Methods" trigger="." img="methods" tooltip="이 브라우저에서의 자바 활성화 여부를 지정합니다">javaEnabled()</item>
+  </obj>
+  
+  <obj name="location" trigger=".">
+	<item name="hash" obj="Properties" trigger="." img="properties" tooltip="URL의 앵커 부분(#)을 설정하거나 반환">hash</item>
+	<item name="host" obj="Properties" trigger="." img="properties" tooltip="URL의 호스트 이름과 포트 번호를 설정하거나 반환">host</item>
+	<item name="hostname" obj="Properties" trigger="." img="properties" tooltip="URL의 호스트 이름을 설정하거나 반환">hostname</item>
+	<item name="href" obj="Properties" trigger="." img="properties" tooltip="전체 URL을 설정 또는 반환">href</item>
+	<item name="origin" obj="Properties" trigger="." img="properties" tooltip="URL의 프로토콜, 호스트 이름 및 포트 번호를 돌려줍니다">origin</item>
+	<item name="pathname" obj="Properties" trigger="." img="properties" tooltip="URL의 경로 이름을 설정 또는 반환">pathname</item>
+	<item name="port" obj="Properties" trigger="." img="properties" tooltip="URL의 포트 번호를 설정하거나 반환">port</item>
+	<item name="protocol" obj="Properties" trigger="." img="properties" tooltip="URL의 프로토콜을 설정하거나 반환">protocol</item>
+	<item name="search" obj="Properties" trigger="." img="properties" tooltip="URL의 쿼리 문자열 부분을 설정하거나 반환">search</item>
+	<item name="assign" obj="Methods" trigger="." img="methods" tooltip="새 문서를 로드">assign()</item>
+	<item name="reload" obj="Methods" trigger="." img="methods" tooltip="현재 문서를 다시 로드">reload()</item>
+	<item name="replace" obj="Methods" trigger="." img="methods" tooltip="현재 문서를 대체">replace()</item>
+  </obj>
+  
+</root>
